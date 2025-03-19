@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-div {
+.left-column {
     width: 30%;
     float: left;
     margin-left: 10%;
@@ -10,13 +10,13 @@ div {
     margin-top: 8%;
     font-family: 'Gill Sans', 'Gill Sans MT';
 }
-h1 {
+.main-title {
     font-size: 100px;
     margin-bottom: 0;
     margin-top: 35px;
     color: rgb(44, 133, 222);
 }
-p {
+.text {
     font-size: 30px;
     font-weight: bold;
     margin-top: 0;
@@ -24,7 +24,7 @@ p {
     text-transform: uppercase;
     color: gray;
 }
-a {
+.btn {
     display: inline-block;
     color: dodgerblue;
     text-decoration: none;
@@ -35,7 +35,7 @@ a {
     width: max-content;
     border-radius: 30px; /* apvalinanat % [0...50] */
 }
-img {
+.right-column {
     width: 40%;
     margin-top: 10%;
     float: left;
